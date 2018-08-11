@@ -8,8 +8,10 @@ void spot_right();
 void spot_left_atsnode();
 void setup() {
 
-  //SENSOR PINS 
+   
   Serial.begin(9600);
+  
+  //SENSOR PINS
   pinMode(2,INPUT); //LEFT
   pinMode(3,INPUT); //FRONT
   pinMode(4,INPUT); //MIDDLE
